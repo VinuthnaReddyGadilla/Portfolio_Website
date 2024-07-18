@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinuthna Reddy</title>
+    <link href="./style.css" rel="stylesheet">
+<!--------------- for first font---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<!----third-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap" rel="stylesheet">
+<!----------font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <a href="#header" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#leadership">Leadership</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="info">
+                <h1>Hey there! I'm Vinuthna Gadilla</h1>
+                <p> Web Developer.Wanna Be Full-stack Developer.Full-time Skincare Enthusiast </p>
+                <a href="">Download Resume</a>
+            </div>
+        </div>
+        
+        <div class="image_box">
+            <img src="./images/vinuthnagr.png" class="myimage">
+        </div>
+    </div>
+    <!--------------------------------------------about----------------------------------->
+    <div id="about">
+        <div class="container">
+            <h1 class="subtitle">About Me</h1>
+            <div class="row">
+                <div class="col-one">
+                    <p class="content">A web development enthusiast diving into the world of full-stack development. I love creating innovative and efficient solutions by turning data into actionable insights. Check out my projects and "let me help you turn your ideas into reality!"</p>
+                </div>
+                <div class="col-two">
+                    <div class="tab-titles">
+                        <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Programming languages </span><br> JavaScript, TypeScript, Python, Java, MySQL, PostgreSQL.
+                             </li>
+                             <li>
+                                <span>Web Frameworks and technologies</span><br>HTML5, CSS3, React.js, jQuery, Node.js, Express.js, Bootstrap, REST APIs, Microservices, MongoDB, Spring Boot.
+                             </li>
+                             <li>
+                                <span>Data Analysis & Visualization</span><br>Big Data Handling, Machine learing and Data Analysis.
+                             </li>
+                             <li>
+                                <span>Platform & Development Tools</span><br>Visual Studio Code, Docker, Git
+                             </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Graduate Research Asisstant | August 2022 - April 2024</span><br>Revamped web presence, boosted outreach, led digital marketing, optimized data management.
+                            </li>
+                            <li>
+                                <span>Web Developer Intern | May 2023 - August 2023</span><br>led seamless integration, boosted engagement, and improved performance.
+                            </li>
+                            <li>
+                                <span>Software Engineer | June 2021 - June 2022</span><br>Chatbot development, aligned with client needs, integrated innovative features, enhanced user satisfaction.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">  
+                        <ul>
+                            <li>
+                                <span>Master of Science in Computer Science</span><br>Bowling Green State University | 2022 - 2024
+                            <li>
+                                <span>Bachelor of Technology in Information Technology</span><br>St. Martins Engineering College | 2016 - 2020
+                            </li>   
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------Projects----------------------------------->
+    <div id="projects">
+        <div id="container">
+            <h1>Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/projectimage1.png">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>A website that any individial can use as their digital resume. Built using HTML,CSS and JavaScript.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/projectimage2.png">
+                    <div class="layer">
+                        <h3>Bug Report Summerization</h3>
+                        <p>A model that can be used by developers to efficiently summerize bug reports and save their time. I made use of python, vectorization, Bard Algorithm and Beam Search Algorithm.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/projectimage3.png">
+                    <div class="layer">
+                        <h3>Sentiment Analysis</h3>
+                        <p>A model that predicts the sentiments of the customer on a product by their reviews. I made use of amazon data to buid a lstm model and data analysis.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>              
+                <div class="work">
+                    <img src="./images/projectimage4.png">
+                    <div class="layer">
+                        <h3>Invitation Website</h3>
+                        <p>Tried creating a invitation webside that tells the location and allows to share.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!----------------------------Leadership-------------------------------------->
+    <div id="leadership">
+        <div class="container">
+            <h1>Leadership and Volunteering</h1>
+            <div class="row">
+                <div class="col">
+                    <img src="./images/GA.jpeg">
+                    <p>Graduate Coordinator for Belonging and Engagement. A great oputunity for me to explore more about what can I do as a "HUMAN" to the society.</p>
+                    
+                </div>
+                <div class="col">
+                    <img src="./images/tedx_.jpeg">
+                    <p>Volunteered for TEDx BGSU. This was a great experience for me as I got to work and educate myself.</p>
+                </div>
+                <div class="col">
+                    <img src="./images/isa_.jpeg">
+                    <p>I worked as Treasurer for India Student Association. This helped them not only with finances but also with hosting, marketing and social media presence.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------contact-------------------------------->
+    <div id="contact">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-phone-volume"></i>vinuthnagr@gmail.com</p>
+                    <p><i class="fa-solid fa-envelope"></i>+1 7325546698</p>
+                    <div class="social">
+                    <a href="https://www.linkedin.com/in/vinuthna-reddy-gadilla-122b391a9/"><i class="fa-brands fa-linkedin"></i>Vinuthna Reddy Gadilla</a>
+                    </div>
+                    <a href""" class="btn">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="d7f89c67-abba-40fd-853e-a584c81a54f9">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" rows="6" placeholder="Enter Your Message" ></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+        
+        event.currentTarget.classList.add("active");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+
+<!------------------------back to top--------------------------------->
+
+
+        // Get the button
+       let mybutton = document.querySelector(".back-to-top");
+
+       // When the user scrolls down 20px from the top of the document, show the button
+       window.onscroll = function() {scrollFunction()};
+ 
+       function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+         } else {
+        mybutton.style.display = "none";
+        }
+        }  
+    
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", function() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+});
+
+    </script>
+
+</body>
+<footer class="footer">Made with <i class="fa-solid fa-heart"></i> by Vinuthna</footer>
+</html>
